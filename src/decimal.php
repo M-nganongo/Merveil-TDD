@@ -10,6 +10,12 @@ class Decimal
         if($year == 4) {
             return 'IV';
         }
+        if($year == 5) {
+            return 'V';
+        }
+        if($year == 9) {
+            return 'IX';
+        }
         return '';
     }
 }
