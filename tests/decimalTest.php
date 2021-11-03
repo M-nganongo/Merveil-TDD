@@ -11,5 +11,7 @@ class DecimalTest extends TestCase
         $this->assertEquals('IV', Decimal::decimalToRoman(4));
         $this->assertEquals('V', Decimal::decimalToRoman(5));
         $this->assertEquals('IX', Decimal::decimalToRoman(9));
+
+        $this->assertEquals('X', Decimal::decimalToRoman(10));
     }
 }
