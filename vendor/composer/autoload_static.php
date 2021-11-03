@@ -72,7 +72,7 @@ class ComposerStaticInit1ec96b640bf1fa70a6c3c27b3ebbcdb0
 
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
-        'LeapYear' => __DIR__ . '/../..' . '/src/BankAccount.php',
+        'Decimal' => __DIR__ . '/../..' . '/src/decimal.php',
         'PHPUnit\\Exception' => __DIR__ . '/..' . '/phpunit/phpunit/src/Exception.php',
         'PHPUnit\\Framework\\ActualValueIsNotAnObjectException' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Exception/ActualValueIsNotAnObjectException.php',
         'PHPUnit\\Framework\\Assert' => __DIR__ . '/..' . '/phpunit/phpunit/src/Framework/Assert.php',
